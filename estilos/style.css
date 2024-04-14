@@ -5,11 +5,7 @@
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-:root {
-     
-}
-
+  
 html, body { /*estabelece que todo o conteúdo ocupará 100% de heigth e width do navegador*/
     height: 100vh;
     width: 100vw;
@@ -35,6 +31,13 @@ section#tela {
     left: 50%;
     transform: translate(-50%, -50%);
     background: url('../imagens/frame-screen.png') center no-repeat fixed;
-    background-size: 100% 100%;       
-    
+    background-size: 100% 100%;    
+}
+
+iframe#tela {
+    position: relative;
+    left: 56px;
+    top: 53px;
+    width: 292px;
+    height: 507px;
 }
