@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+     
+}
+
+html, body { /*estabelece que todo o conteúdo ocupará 100% de heigth e width do navegador*/
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body{
+    background: grey url('../imagens/background-pq.png') right center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+    position: relative;    
+}
+
+section#tela {
+    height: 626px;
+    width: 409px;
+     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url('../imagens/frame-screen.png') center no-repeat fixed;
+    background-size: 100% 100%;       
+    
+}
