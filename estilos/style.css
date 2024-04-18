@@ -40,6 +40,7 @@ iframe#tela {
     top: 53px;
     width: 292px;
     height: 507px;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
 }
 
 section#redes-sociais {
@@ -47,7 +48,6 @@ section#redes-sociais {
 }
 
 section#redes-sociais img { /*ou > a > img { } */ 
-    display: y-inline-block;
     width: 50px;
     margin: 10px 10px 0px 0px; 
     border-radius: 25%; /*50% transforma em circulo*/ 
